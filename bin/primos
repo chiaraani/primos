@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+begin
+    require "primos"
+    Client.get_commands
+rescue LoadError => e
+    abort 'No puedo encontrar primos.'
+end
+

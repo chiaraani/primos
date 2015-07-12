@@ -6,10 +6,12 @@ Característica: ingresar número natural
         Y it should pass with:
         """
         Inserta el límite hasta donde quieres calcular primos:
-        2
-        3
-        5
-        7
+        2 <= 1 ✓
+        3 <= 2 ✓
+        5 <= 3 ✓
+        7 <= 4 ✓
+        Total de primos: 4
+        Hasta el número: 10
         """
     Escenario: un usuario ingresa correctamnete un string
         Dado I run `primos` interactively

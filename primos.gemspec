@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chiara Piccinini Núñez"]
   spec.email         = ["chiaraani@gmail.com"]
 
-  spec.summary       = %q{Una función para imprmir numeros primos.}
+  spec.summary       = %q{A function to print primes numbers.}
   spec.description   = %q{Escribes un número natural, el límite y te calcula todos los primos hasta ese límite.}
   spec.homepage      = "http://www.chiaraani.com"
   spec.license       = "MIT"
@@ -18,6 +18,9 @@ Gem::Specification.new do |spec|
   spec.bindir        = "bin"
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.required_rubygems_version = '>= 2.4'
+  spec.required_ruby_version     = '>= 2.0'
 
   spec.add_development_dependency "cucumber", "~> 2.0"
   spec.add_development_dependency "shoulda-matchers", "~> 2.8"

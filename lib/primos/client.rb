@@ -11,7 +11,6 @@ module Primos
                     puts 'Esto no es un número natural'
                 else
                     primos = Primos.new(input.to_i)
-                    primos.print
                 end
             end
         end
